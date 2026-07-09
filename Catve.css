@@ -1,0 +1,415 @@
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI Bold"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: SegoeUI-semilight;
+    src:
+        local("Segoe UI Semilight"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
+    font-weight: 200;
+}
+
+.navbar ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    height: 30px;
+    margin: 0px;
+    background: linear-gradient(to bottom, #8B5A2B, #5C3A21); /* Warm tabby browns */
+}
+
+.novlog{
+    width: 11%;
+    height: auto;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: Arial;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.navbartop {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: left;
+    background: #3d2b1f; /* Cat-nose/fur dark brown */
+    height: 10px;
+    position: flex;
+}
+
+.navbartop img{
+    display: flex;
+    margin-top: -15px;
+    margin-left: 70px;
+    height: 40px;
+    width: 170px;
+}
+
+.navbartop a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: right;
+    font-family: Arial;
+    font-weight: 600;
+    margin-top: -42px;
+    margin-right: 120px;
+}
+
+body {
+    margin: 0;
+    background-image: url('https://cdn.petdirect.co.nz/cache/1280w/27/14/2a0637560c9b613ce570b8338420.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.blackbar {
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    color: white;
+    list-style-type: none;
+    height: 50px;
+    margin: 0 auto;
+    width: 60.3%;
+    background: linear-gradient(to bottom, #4A3525, #2B1E15);
+    margin-top: 100px;
+    clip-path: polygon(95% 0, 100% 50%, 95% 100%, 0 100%, 0 0); /* Slightly altered accent edge */
+}
+
+.blackbar h1{
+    margin-top: 5px;
+    font-family: Arial;
+    margin-left: 10px;
+}
+
+.mainblackbarcontent {
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    color: #2B1E15;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 60.1%;
+    background: rgba(255, 248, 239, 0.92); /* Cream with high opacity for readability */
+    border-color: #CD853F; /* Peru brown border */
+    border-style: solid;
+    border-width: 2px;
+    text-align: justify;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: flex;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+.mainblackbarcontent h1{
+    margin-top: 5px;
+    font-family: Arial;
+    margin-left: 10px;
+}
+
+.slash {
+    border-style: dashed;
+    border-color: #AAAAAA;
+    border-width: 2px;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    width: 26%;
+}
+
+.mainblackbarcontent a {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 1%;
+    white-space: wrap;
+    align-content: center;
+    text-overflow: ellipsis;
+}
+
+.mainblackbarcontent h1 {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 1%;
+    white-space: normal;
+}
+
+.mainblackbarcontent b {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 1%;
+    white-space: normal;
+}
+
+.mainblackbarcontent h5 {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 1%;
+    white-space: normal;
+    font-weight: lighter;
+}
+
+.mainblackbarcontent input {
+    margin-top: 40px;
+    margin-left: -132px;
+    margin: 10px;
+}
+
+
+.servers {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    height: 50%;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.servers img{
+    height: 100px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-left: -0.5%;
+    object-fit: cover;
+}
+
+.servers h4 {
+    display: block;
+    margin: 0 auto;
+    color: #D2691E; /* Cinnamon/Orange tone */
+}
+
+.servers h5{
+    display: block;
+    margin: 0 auto;
+    white-space: initial;
+}
+
+.game {
+    padding: 0;
+    display: flex;
+    justify-content: flex;
+    color: transparent;
+    list-style-type: none;
+    margin-right: 0 auto;
+    width: 28.5%;
+    text-align: justify;
+    border-color: transparent;
+}
+
+.game h1 {
+    font-family: SegoeUI;
+    font-weight: 400;
+    color: black;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: start;
+}
+
+.game a {
+    font-family:  SegoeUI;
+    color: black;
+    white-space: normal;
+}
+
+.game img {
+    height: 281px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-left: -0.5%;
+    object-fit: cover;
+}
+
+.game2 {
+    padding: 0;
+    justify-content: center;
+    color: white;
+    width: 150px;
+    margin-left: 510px;
+    margin-top: -290px;
+    text-align: justify;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-color: transparent;
+}
+
+.game2 a{
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    white-space: normal;
+    font-size: small;
+}
+
+.game2 p{
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    white-space: normal;
+    margin-top: auto;
+    font-size: small;
+}
+
+.game2 hr{
+    width: 150%
+}
+
+.sudo {
+    display: absolute;
+    justify-content: left;
+    color: transparent;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 40%;
+    text-align: justify;
+    margin-left: 30%;
+    border-color: transparent;
+}
+
+.play {
+    background: linear-gradient(to bottom, #00AB00, #155F17);
+    width: 100%;
+    height: 12%;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-color: #155F17;
+    border-width: 1px;
+    box-shadow: 0px 0px 2px #155F17;
+    margin-left: 25%;
+    cursor: pointer;
+}
+
+.desc{
+    margin-right: 100px;
+}
+
+.sudo h2{
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    white-space: normal;
+    margin-top: auto;
+}
+
+.sudo a{
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    white-space: normal;
+    margin-top: auto;
+}
+
+.submitbutton {
+    margin: 10px;
+    background-color: #E6A15C;
+    color: white;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: bold;
+    border: 1px solid #C67A33;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submitbutton:hover {
+    background-color: #C67A33;
+}
+
+.output {
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.blackboxcontent {
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    color: white;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 100%;
+    background: rgba(0,0,0,0);
+    border-color: rgba(0,0,0,0);
+    border-style: solid;
+    border-width: 2px;
+    text-align: justify;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: flex;
+
+}
+
+.blackboxcontent h1{
+    margin-top: 5px;
+    font-family: Arial;
+    margin-left: 10px;
+}
+
+.blackboxcontent a {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 1%;
+    white-space: wrap;
+    align-content: center;
+}
+
+.blackboxcontent h1 {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 1%;
+    white-space: normal;
+}
+
+.blackboxcontent b {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 1%;
+    white-space: normal;
+}
+
+.blackboxcontent h5 {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-left: 1%;
+    white-space: normal;
+    font-weight: lighter;
+}
+
+.blackboxcontent input {
+    margin-top: 40px;
+    margin-left: -132px;
+    margin: 10px;
+}
+.URIoutput {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.formcss {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 15px
+}
